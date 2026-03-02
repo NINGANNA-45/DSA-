@@ -24,10 +24,6 @@ int main()
             printf("target elm is to be at index %d",i+1);
             return 0;
         }
-       // else{
-           // printf("The elem is to be at index -1");
-            //return 0;
-       // }
     }
 
 
