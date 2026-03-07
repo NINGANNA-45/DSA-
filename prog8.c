@@ -11,4 +11,18 @@ int main()
     printf("Enter the words:");
     scanf("%s",&words);
     for(i=0;i<num;i++)
-   
+    {
+        scanf("%s",&words[i]);
+
+    }
+    for(i=0;i<num;i++)
+    {
+        if(words[i]!=words[i])
+        {
+            count++;
+        }
+    }
+    printf("\n%d duplicates elements in this Array:",count);
+    return 0;
+
+}
